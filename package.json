@@ -1,15 +1,11 @@
 {
-  "name": "cast-array",
+  "name": "castarray",
   "main": "index.js",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Ensure a value is an array and wrap it if it is not an array",
   "license": "MIT",
-  "repository": "bendrucker/cast-array",
-  "author": {
-    "name": "Ben Drucker",
-    "email": "bvdrucker@gmail.com",
-    "url": "bendrucker.me"
-  },
+  "repository": "sdgluck/castarray",
+  "author": "Sam Gluck <sdgluck@gmail.com>",
   "scripts": {
     "test": "standard && tape test.js"
   },
@@ -24,8 +20,5 @@
   },
   "files": [
     "index.js"
-  ],
-  "dependencies": {
-    "isarray": "0.0.1"
-  }
+  ]
 }

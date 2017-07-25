@@ -1,19 +1,21 @@
-# cast-array [![Build Status](https://travis-ci.org/bendrucker/cast-array.svg?branch=master)](https://travis-ci.org/bendrucker/cast-array)
+# castarray
 
 > Ensure a value is an array and wrap it if it is not an array
 
+This is a fork of [`cast-array`](https://github.com/bendrucker/cast-array) 
+by [Ben Drucker](https://github.com/bendrucker)
+without support for IE8.
 
 ## Install
 
 ```
-$ npm install --save cast-array
+$ npm install --save castarray
 ```
-
 
 ## Usage
 
 ```js
-var castArray = require('cast-array')
+var castArray = require('castarray')
 
 castArray('input')
 //=> ['input']
@@ -33,7 +35,6 @@ Type: `array` / `any`
 
 A value to wrap in an array (unless it's already an array).
 
-
 ## License
 
-MIT © [Ben Drucker](http://bendrucker.me)
+MIT © Sam Gluck
